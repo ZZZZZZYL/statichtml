@@ -1,0 +1,47 @@
+header .back{display: flex;align-items: center;}
+header .back .iconfont{color:#e7f8fe;font-size:0.4rem;}
+header .back p{font-size: 0.35rem;color:#fff;}
+header h3{font-size:0.38rem;color:#fff;}
+header p{font-size:0.34rem;color:#fff;}
+
+
+section{background:#f8f8f8;}
+section .gr{display: flex;border-bottom:1px solid #dedfe0;background:#fff;}
+section .gr li{flex:1;text-align:center;line-height:0.86rem;}
+section .gr li p{font-size:0.32rem;color:#808080;}
+section .gr .active p{color:#02a6e0; border-bottom: 0.06rem solid #02a6e0;display:inline-block;height:0.87rem;padding-left:0.17rem;padding-right:0.17rem;}
+section .geren{height:1.63rem;display: flex;align-items:center ;justify-content: space-around;background:#fff;margin-bottom:0.2rem;}
+section .geren .left{display: flex;}
+section .geren .left .pic{height:1rem;width:1rem;overflow:hidden;margin-right:0.34rem;border-radius: 50%;}
+section .geren .left .pic img{height:100%;width:100%;}
+section .geren .left .statistics{display: flex;font-size:0.28rem;color:#bbb;}
+section .geren .left .statistics p{margin-right:0.43rem;line-height:0.26rem;}
+
+section .geren .left h4{font-size:0.36rem;font-weight:bold;line-height:0.34rem;margin-bottom:0.25rem;}
+section .geren .right{display: flex;}
+section .geren .right .iconfont{font-size:0.6rem;line-height:0.48rem;}
+section .geren .right .iconfont:first-of-type{margin-right:0.48rem;color:#4ecc76;}
+section .geren .right .iconfont:nth-of-type(2){
+	color:#57b4df;font-size:0.4rem;
+}
+
+section .visit{background:#fff;margin-bottom:0.2rem;}
+section .visit li{height:1.18rem;display:flex;align-items:center;padding-left:0.32rem;}
+section .visit li:first-of-type{border-bottom:0.02rem solid #f0f0f2;font-size:0.28rem;display: flex;justify-content: space-between;padding-right:0.32rem;}
+section .visit li:first-of-type .iconfont{color:#c8c8c8;font-size:0.4rem;}
+section .visit li .left{}
+section .visit li .left .pic{width:0.8rem;height:0.8rem;border-radius: 0.1rem;overflow:hidden;margin-right:0.38rem;}
+section .visit li .left .pic img{width:0.8rem;height:0.8rem;}
+section .visit li .right {width:6.03rem;height:1.18rem;display: flex;align-items: center;justify-content: space-between;padding-right:0.32rem;border-bottom:2px solid #f0f0f2;}
+section .visit li .right .name{font-size:0.36rem;line-height:0.34rem;margin-bottom:0.18rem;}
+section .visit li .right span{font-size:0.25rem;color:#bbb;line-height:0.22rem;}
+section .visit li .right .num{color:#ff9862;font-size:0.28rem;margin-right:0.13rem;}
+section .visit li .right .newht{color:#777;font-size:0.28rem;}
+section .recommend{background-color:#fff;padding-left:0.33rem;}
+section .recommend h3{font-size:0.28rem;height:0.88rem;line-height:0.88rem;}
+section .recommend .bldetail{display: flex;overflow-x:auto;}
+section .recommend .bldetail li{width:2.9rem;border:1px solid #e1e2e6;align-items: center;margin-right:0.08rem;display:flex;flex-direction: column;padding-left:0.42rem;padding-right:0.48rem;}
+section .recommend .bldetail li img{width:1rem;height:1rem;margin-top:0.3rem;margin-bottom:0.27rem;}
+section .recommend .bldetail li dd{text-align:center;font-size:0.28rem;}
+section .recommend .bldetail li .gzbtn{width:1.22rem;height:0.58rem;border:1px solid #bbb;border-radius: 0.1rem;text-align:center;line-height:0.58rem;margin-top:0.28rem;margin-bottom:0.23rem;font-size:0.28rem;}
+section .recommend .bldetail li .likeother{width:2rem;text-align: center;line-height:0.36rem;padding-top:0.13rem;border-top:2px solid #eff0f2;font-size:0.24rem;color:#bbb;}

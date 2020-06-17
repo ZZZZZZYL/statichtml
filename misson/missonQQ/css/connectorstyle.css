@@ -1,0 +1,21 @@
+header h3{font-size:0.38rem;color:#fff;}
+header p{font-size:0.34rem;color:#fff;}
+section{background:#f7f7f8;}
+section ul:first-of-type{height:1.71rem;display: flex;align-items: center;justify-content: space-around;background:#fff;}
+section ul:first-of-type a{display: flex;flex-direction:column;justify-content: center;align-items: center;}
+section ul:first-of-type a .iconfont{font-size:0.67rem;}
+section ul li:nth-of-type(1) .iconfont{color:#12b7f6;}
+section ul li:nth-of-type(2) .iconfont{color:#4394f7;}
+section ul li:nth-of-type(3) .iconfont{color:#ffa556;}
+section ul:first-of-type a span{font-size:0.28rem;color:#000;}
+
+section ul:nth-of-type(2),section ul:nth-of-type(3){border-top:1px solid #dedfe0;margin-top:0.38rem;background:#fff;}
+section ul:nth-of-type(2) li,section ul:nth-of-type(3) li{height:0.92rem;border-bottom: 1px solid #dedfe0;display: flex;justify-content: space-between;align-items: center;}
+section ul:nth-of-type(2) i,section ul:nth-of-type(3) i{display: flex;align-items: center;}
+section ul:nth-of-type(2) li span,section ul:nth-of-type(3) li span{margin-left:0.27rem;margin-right:0.28rem;height:0;width:0;border-left:0.13rem solid #b3b3b3;border-top:0.13rem solid transparent;border-bottom:0.13rem solid transparent;}
+section ul:nth-of-type(2) li h4,section ul:nth-of-type(3) li h4{font-size: 0.36rem;color:#000;}
+section ul:nth-of-type(2) li p,section ul:nth-of-type(3) li p{font-size: 0.2rem;color:#a1a1a1;margin-right:0.25rem;}
+
+
+footer ul li:nth-child(2) .iconfont{color:#12b7f5;}
+footer ul li:nth-child(2) span{color:#12b7f5;}

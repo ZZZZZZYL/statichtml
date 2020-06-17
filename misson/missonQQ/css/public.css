@@ -1,0 +1,38 @@
+body,html{height: 100%;}
+*{box-sizing:border-box;}
+/*750的分辨率时 50/3.75*/
+html{font-size:13.3vw;}
+body,h1,h3,h4,h2,h5,h6,input,p,form,ul,ol,dl,dd,td,textarea,select,option{margin:0; padding:0;}
+img{display: block; }
+img,fieldset{border:none;}
+a{text-decoration: none; color: #666;}
+li{list-style: none;}
+body{font-size:12px;}
+b,strong,h1,h3,h4,h2,h5,h6{font-weight: normal;}
+em,i{font-style:normal;}
+input,a{outline: none;border:none;}
+.clear:after{content: " "; display: block; clear: both; height: 0; visibility: hidden;}
+.clear{zoom:1;}
+textarea{resize:none;}
+select{background: transparent;}
+
+#wrap{height:100%;width:100%;display:flex;flex-direction: column;}
+
+.header1{height:0.4rem;width:100%;background:#12b7f5;}
+
+header{height:0.88rem;display:flex;justify-content: space-between;align-items: center;background:#12b7f5;padding-left:0.24rem;padding-right:0.27rem;}
+header .pic{height:0.74rem;width:0.74rem;border-radius: 50%;overflow:hidden;}
+header .pic img{height:100%;width:100%;}
+
+
+section .search{height:0.88rem;display: flex;justify-content: center;align-items: center;background:#fff;}
+section .ico{width:3.36rem;height:0.54rem;background: #eeeff3;text-align: right;line-height:0.54rem;border-radius: 0.1rem 0 0 0.1rem;}
+section .ico span{font-size:0.25rem;color:#c7c7cc;}
+section .search input{height:0.54rem;width:3.82rem;padding-left:0.16rem;line-height:0.54rem;background:#eeeff3;color:#a6a6a6;font-size: 0.28rem;border-radius: 0 0.1rem 0.1rem 0 ;}
+section{flex:1;width:100%;overflow-y:auto;}
+
+footer{height:0.98rem;width:100%;}
+footer ul{height:0.98rem;display: flex;align-items: center;justify-content: space-around;}
+footer ul a{display: flex;flex-direction:column;justify-content: center;align-items: center;}
+footer .iconfont{color:#707070;font-size:0.48rem;}
+footer a span{color:#a6a49c;font-size:0.2rem;}
